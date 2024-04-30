@@ -3,8 +3,8 @@ import React from "react";
 export default function CountdownTimer() { 
     const useTimer = (onDone, initialTimeSeconds) => {
         const [seconds, setSeconds] = React.useState(initialTimeSeconds);
-        const [timeout, _setTimeout] = React.useState();
-        const [render, rerender] = React.useState();
+        const [timeout, _setTimeout] = React.useState(0);
+        const [render, rerender] = React.useState({});
 
     const countDown = () => setSeconds((prev) => prev - 1);
 

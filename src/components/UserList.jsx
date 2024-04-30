@@ -13,6 +13,7 @@ export default function UserList() {
         .then(data => {
             setUsers(data.data);
         })
+        .catch(error => console.log(error))
     }, []);
 
 
