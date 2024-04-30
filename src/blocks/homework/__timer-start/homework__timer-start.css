@@ -1,0 +1,18 @@
+.homework__timer-start {
+    border: 0;
+    padding: 0;
+    width: 180px;
+    height: 25px; 
+    background-color: #673ab7;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.homework__timer-start:hover {
+    opacity: 0.96;
+}
+
+.homework__timer-start:active {
+    transform: scale(0.99);
+}

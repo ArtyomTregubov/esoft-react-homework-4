@@ -1,0 +1,11 @@
+.homework__timer {
+    width: 330px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 0 5px;
+    border-radius: 15px;
+    background-color: #01000840;
+}
